@@ -37,7 +37,7 @@ public class GardenGroup implements Identifiable<Long> {
     private List<User> users;
     @ManyToOne
     @JoinColumn(nullable = false)
-    private KinderGartenerr kinderGartener;
+    private KinderGartener kinderGartener;
 
     public enum Type {
 

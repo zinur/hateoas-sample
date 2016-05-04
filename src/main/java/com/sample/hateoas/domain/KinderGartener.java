@@ -14,7 +14,7 @@ import lombok.Data;
  */
 @Entity
 @Data
-public class KinderGartenerr implements Identifiable<Long> {
+public class KinderGartener implements Identifiable<Long> {
 
 
     @Id
