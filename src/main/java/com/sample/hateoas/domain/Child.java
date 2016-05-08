@@ -17,7 +17,7 @@ import lombok.Setter;
  */
 @Entity
 @Data
-public class User {
+public class Child {
 
     @Id
     @GeneratedValue

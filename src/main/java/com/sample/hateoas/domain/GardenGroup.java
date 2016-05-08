@@ -29,12 +29,12 @@ public class GardenGroup implements Identifiable<Long> {
     @Enumerated(EnumType.STRING)
     private Type type;
 
-    @Column(nullable = false)
+
     private BigDecimal rate;
 
     @OneToMany
     @JoinColumn
-    private List<User> users;
+    private List<Child> children;
     @ManyToOne
     @JoinColumn(nullable = false)
     private KinderGartener kinderGartener;

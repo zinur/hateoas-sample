@@ -16,11 +16,11 @@ import lombok.Data;
 @Data
 public class KinderGartener implements Identifiable<Long> {
 
-
     @Id
     @GeneratedValue
     private Long id;
 
     @Column
     private String phoneNumber;
+
 }
